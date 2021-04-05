@@ -1,5 +1,6 @@
-package com.piliF.rest.webservices.restfulwebservices.todo;
+package com.piliF.rest.webservices.restfulwebservices.todo.service;
 
+import com.piliF.rest.webservices.restfulwebservices.todo.model.Todo;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -7,7 +8,7 @@ import java.util.Date;
 import java.util.List;
 
 @Service
-public class TodoHardcodedService {
+public class TodoHardcodedService implements TodoService{
 
     private static List<Todo> todos = new ArrayList<>();
     private static long idCounter = 0;

@@ -1,4 +1,4 @@
-package com.piliF.rest.webservices.restfulwebservices.todo;
+package com.piliF.rest.webservices.restfulwebservices.todo.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
